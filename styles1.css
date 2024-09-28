@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300,600);
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: "open sans", helvetica, arial, sans;
+}
+
+body {
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: aliceblue;
+  padding: 180px 0 0 120px;
+}
+
+h2 {
+  padding-bottom: 30px;
+}
+
+input {
+  outline: none;
+  border: none;
+  padding: 8px;
+  margin: 5px 0 5px 0;
+  background-color: aliceblue;
+}
+
+label {
+  font-size: 18px;
+}
+
+#email {
+  margin-left: 105px;
+  width: 250px;
+}
+
+#password {
+  margin-left: 70px;
+  width: 250px;
+}
+
+#login {
+  font-size: medium;
+  font-weight: bold;
+  width: 75px;
+  margin-top: 25px;
+}
